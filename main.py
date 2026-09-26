@@ -15,12 +15,12 @@ XpressBotz = Client(
 
 @XpressBotz.on_message(filters.command("start"))
 async def start_cmd(client, message):
-    print("START Command")
+    await message.reply_text("Hi💥,This is an active and powerful Bot and ready to assist you")
 
 
 @XpressBotx.on_message(filters.command("help"))
 async def help_cmd(client, message):
-    print("HELP Command")
+    await message.reply_text("add this bot in your channel with all admin permission")
 
 
 printf("Bot was Started")
