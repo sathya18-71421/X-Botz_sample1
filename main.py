@@ -15,6 +15,7 @@ XpressBotz = Client(
 
 START_BUTTONS = [[
     InlineKeyboardButton("JOIN MAIN CHANNEL", url="https://t.me/Xpressbotz_18")
+],[
     InlineKeyboardButton("JOIN OFFICIAL CHANNEL", url="https://t.me/XpressOfficial1")
 ]]
 
