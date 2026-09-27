@@ -24,7 +24,9 @@ START_BUTTONS = [[
 async def start_cmd(client, message):
     await message.reply_photo(
         photo="https://graph.org/file/9307a0d78149aab078f68-eb1387c03ebb4a1e35.jpg",
-        caption="Hi💥,This is an active and powerful Bot and ready to assist you")
+        caption="Hi💥,This is an active and powerful Bot and ready to assist you",
+        reply_markup=InlineKeyboardMarkup(START_BUTTONS)
+    )
 
 
 
