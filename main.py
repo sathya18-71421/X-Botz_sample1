@@ -21,6 +21,10 @@ async def start_cmd(client, message):
 
 
 
+
+
+
+
 printf("Bot was Started")
 
 XpressBotz.run()
