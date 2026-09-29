@@ -39,23 +39,3 @@ printf("Bot was Started")
 XpressBotz.run()
 
 
-import asyncio
-import os
-from telegram.ext import ApplicationBuilder
-
-# Your existing handlers and setup...
-
-
-async def main():
-    app = ApplicationBuilder().token(os.environ.get("BOT_TOKEN")).build()
-    # Register your handlers here (e.g., app.add_handler(...))
-
-    # Start polling
-    await app.run_polling()
-
-
-if __name__ == "__main__":
-    # Create and set a fresh event loop before running
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_until_complete(main())
